@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand";
+}
+
+.top-container{
+    background:linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("/assets/background.jpg");
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.neon_1{
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #020a12, 0 0 20px #011930, 0 0 25px #fbfdff, 0 0 30px #51a0f4, 0 0 35px #025ab3;
+}
+.neon_2 {
+    text-shadow: 0 0 5px #fff, 0 0 10px #ffffff, 0 0 15px #020a12, 0 0 20px #011930, 0 0 25px #fbfdff, 0 0 30px #000000, 0 0 35px #ffffff;
+}
+.img-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-holder img{
+    width: 25rem;
+}
+.bot {
+    border-bottom-width: 90%;
+    border-bottom: 1px solid rgb(196, 196, 196);
+
+}
